@@ -1,0 +1,58 @@
+/*
+Theme Name: Beaver Builder Child Theme
+Theme URI: http://www.wpbeaverbuilder.com
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: The Beaver Builder Team
+Author URI: http://www.fastlinemedia.com
+template: bb-theme
+*/
+
+/* Add your custom styles here... */ 
+
+@charset "UTF-8";
+@font-face{
+    font-family:ITCFranklinGothic;
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+    src:url(/assets/fonts/ITCFranklinGothic-Book.woff) format("woff")
+    src:url(/assets/fonts/ITCFranklinGothic-Book.woff2) format("woff2")
+}
+
+@font-face{
+    font-family:ITCFranklinGothic;
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+    src:url(/assets/fonts/ITCFranklinGothic-Medium.woff) format("woff")
+    src:url(/assets/fonts/ITCFranklinGothic-Medium.woff2) format("woff2")
+}
+@font-face{
+    font-family:Savoy;
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;src:url(/assets/fonts/Savoy-Bold.woff) format("woff")
+    font-display:swap;src:url(/assets/fonts/Savoy-Bold.woff2) format("woff2")
+}
+@font-face{
+font-family:Savoy;
+font-weight:400;font-style:italic;font-display:swap;
+src:url(/assets/fonts/Savoy-Italic.woff) format("woff")
+}
+@font-face{
+font-family:Savoy;
+font-weight:400;
+font-style:normal;
+font-display:swap;
+src:url(/assets/fonts/Savoy-Roman.woff) format("woff")
+src:url(/assets/fonts/Savoy-Roman.woff2) format("woff2")
+}
+@font-face{
+font-family:VogueAvantGarde;
+font-weight:400;
+font-style:normal;
+font-display:swap;
+src:url(/assets/fonts/VogueAvantGarde-book.woff) format("woff")
+src:url(/assets/fonts/VogueAvantGarde-book.woff2) format("woff2")
+}
