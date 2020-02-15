@@ -9,50 +9,54 @@ template: bb-theme
 */
 
 /* Add your custom styles here... */ 
-
-@charset "UTF-8";
-@font-face{
-    font-family:ITCFranklinGothic;
-    font-weight:400;
-    font-style:normal;
-    font-display:swap;
-    src:url(/assets/fonts/ITCFranklinGothic-Book.woff) format("woff")
-    src:url(/assets/fonts/ITCFranklinGothic-Book.woff2) format("woff2")
+@font-face {
+    font-family: Savoy;
+    src: url(/fonts/Savoy-Roman-webfont.eot);
+    src: url(/fonts/Savoy-Roman-webfont.woff2) format("woff2"), url(/fonts/Savoy-Roman-webfont.woff) format("woff")
 }
 
-@font-face{
-    font-family:ITCFranklinGothic;
-    font-weight:500;
-    font-style:normal;
-    font-display:swap;
-    src:url(/assets/fonts/ITCFranklinGothic-Medium.woff) format("woff")
-    src:url(/assets/fonts/ITCFranklinGothic-Medium.woff2) format("woff2")
+@font-face {
+    font-family: Savoy;
+    src: url(/fonts/Savoy-Bold-webfont.eot);
+    src: url(/fonts/Savoy-Bold-webfont.woff2) format("woff2"), url(/fonts/Savoy-Bold-webfont.woff) format("woff");
+    font-weight: 700
 }
-@font-face{
-    font-family:Savoy;
-    font-weight:700;
-    font-style:normal;
-    font-display:swap;src:url(/assets/fonts/Savoy-Bold.woff) format("woff")
-    font-display:swap;src:url(/assets/fonts/Savoy-Bold.woff2) format("woff2")
+
+@font-face {
+    font-family: Savoy;
+    src: url(/fonts/Savoy-Italic-webfont.eot);
+    src: url(/fonts/Savoy-Italic-webfont.woff2) format("woff2"), url(/fonts/Savoy-Italic-webfont.woff) format("woff");
+    font-style: italic
 }
-@font-face{
-font-family:Savoy;
-font-weight:400;font-style:italic;font-display:swap;
-src:url(/assets/fonts/Savoy-Italic.woff) format("woff")
+
+@font-face {
+    font-family: FoundersGrotesk;
+    src: url(/fonts/FoundersGroteskWeb-Light.eot);
+    src: url(/fonts/FoundersGroteskWeb-Light.woff2) format("woff2"), url(/fonts/FoundersGroteskWeb-Light.woff) format("woff")
 }
-@font-face{
-font-family:Savoy;
-font-weight:400;
-font-style:normal;
-font-display:swap;
-src:url(/assets/fonts/Savoy-Roman.woff) format("woff")
-src:url(/assets/fonts/Savoy-Roman.woff2) format("woff2")
+
+@font-face {
+    font-family: FranklinGothic;
+    src: url(/fonts/FranklinGothic-Book-webfont.eot);
+    src: url(/fonts/FranklinGothic-Book-webfont.woff2) format("woff2"), url(/fonts/FranklinGothic-Book-webfont.woff) format("woff")
 }
-@font-face{
-font-family:VogueAvantGarde;
-font-weight:400;
-font-style:normal;
-font-display:swap;
-src:url(/assets/fonts/VogueAvantGarde-book.woff) format("woff")
-src:url(/assets/fonts/VogueAvantGarde-book.woff2) format("woff2")
+
+@font-face {
+    font-family: FranklinGothic;
+    src: url(/fonts/FranklinGothic-Med-webfont.eot);
+    src: url(/fonts/FranklinGothic-Med-webfont.woff2) format("woff2"), url(/fonts/FranklinGothic-Med-webfont.woff) format("woff");
+    font-weight: 700
 }
+
+@font-face {
+    font-family: VogueAvantGarde;
+    src: url(/fonts/VogueAvantGarde-book-webfont.eot);
+    src: url(/fonts/VogueAvantGarde-book-webfont.woff2) format("woff2"), url(/fonts/VogueAvantGarde-book-webfont.woff) format("woff")
+}
+
+@font-face {
+    font-family: OstiaAntica;
+    src: url(/fonts/OstiaAntica-Regular.eot);
+    src: url(/fonts/OstiaAntica-Regular.woff2) format("woff2"), url(/fonts/OstiaAntica-Regular.woff) format("woff")
+}
+
